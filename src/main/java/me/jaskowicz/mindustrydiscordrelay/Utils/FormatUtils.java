@@ -10,7 +10,7 @@ public class FormatUtils {
         seconds %= 60*60;
         long minutes = seconds/60;
         seconds %= 60;
-        return (hours>0 ? hours+" hours " : "") + (minutes<10 ? "0"+minutes : minutes) + " minutes and " + (seconds<10 ? "0"+seconds : seconds) + " seconds";
+        return (hours>0 ? hours+" часов " : "") + (minutes<10 ? "0"+minutes : minutes) + " минут и " + (seconds<10 ? "0"+seconds : seconds) + " секунд";
     }
 
     public static long getHoursFromTime(long duration) {

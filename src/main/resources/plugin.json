@@ -1,7 +1,7 @@
 {
-  "name": "Mindustry-Discord-Relay",
+  "name": "Mindustry-Discord-Relay-Rus",
   "author": "ArchieJaskowicz",
   "main": "me.jaskowicz.mindustrydiscordrelay.Main",
-  "description": "A Mindustry plugin that allows users to send information to discord from Mindustry.",
+  "description": "Отсылает разные события в дискорд канал в вебхуку.",
   "version": 1.0
 }
